@@ -1,20 +1,20 @@
 {
-	"name": "project-3",
+	"name": "Project",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "main.js",
 	"scripts": {
 		"build": "webpack --config webpack/webpack.config.prod.js",
 		"build-dev": "webpack --config webpack/webpack.config.common.js",
 		"dev-server": "webpack serve --config webpack/webpack.config.common.js"
 	},
-	"author": "",
+	"author": "Traniks",
 	"license": "ISC",
 	"devDependencies": {
 		"copy-webpack-plugin": "^13.0.0",
 		"css-loader": "^7.1.2",
-		"html-bundler-webpack-plugin": "^4.18.2",
-		"sass": "^1.85.1",
+		"html-bundler-webpack-plugin": "^4.19.0",
+		"sass": "^1.86.0",
 		"sass-loader": "^16.0.5",
 		"webpack": "^5.98.0",
 		"webpack-cli": "^6.0.1",
